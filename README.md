@@ -8,7 +8,7 @@ This repo demonstrates how a client with max-message set to a low limit will cau
 
 ### Monitor mem usage
 
-Requires [jplot](https://github.com/rs/jplot)).
+Requires [jplot](https://github.com/rs/jplot).
 
     > jplot --url http://localhost:8002/debug/vars memstats.HeapSys+memstats.HeapAlloc+memstats.HeapIdle+marker,counter:memstats.NumGC counter:memstats.TotalAlloc memstats.HeapObjects memstats.StackSys+memstats.StackInuse
 
