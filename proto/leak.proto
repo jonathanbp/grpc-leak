@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+message DataRequest {}
+
+message DataReply {
+  string data = 1;
+}
+
+service Data {
+  rpc Get (DataRequest) returns (DataReply) {}
+}
+
+
