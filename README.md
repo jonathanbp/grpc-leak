@@ -1,6 +1,6 @@
 # Heavy memory usage demo for grpc-go
 
-This repo demonstrates how a client with max-message set to a low limit will cause heavy memory usage (and possible leak) in a grpc server.
+This repo demonstrates how a client with max-message set to a low limit will cause heavy memory usage (and possible leak) in a grpc server reported in https://github.com/grpc/grpc-go/issues/2444.
 
 ## Run the server
 
